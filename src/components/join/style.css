@@ -1,0 +1,19 @@
+.join_heading {
+    font-size: 2.5em;
+    text-align: center;
+}
+
+.join_form {
+    width: 100%;
+}
+
+.input {
+    border: 1px solid var(--black);
+    padding: 8px 10px;
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    border-radius: 8px;
+    margin-bottom: 16px;
+    font-size: 1.5em;
+}

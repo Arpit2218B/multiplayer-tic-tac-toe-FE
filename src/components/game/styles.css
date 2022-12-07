@@ -1,0 +1,85 @@
+.game_container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 96vh;
+    box-sizing: border-box;
+}
+
+.ready__conatiner {
+    text-align: center;
+}
+
+.ready_text {
+    text-align: center;
+    font-weight: 500;
+    font-size: 1.5em;
+}
+
+.board_container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 2px;
+    background-color: var(--black);
+    border: 2px solid var(--yellow);
+}
+
+.board_tiles {
+    aspect-ratio: 1;
+    background-color: var(--yellow);
+}
+
+.chat_container {
+    height: 250px;
+    background-color: var(--black);
+    margin: 0 -16px;
+}
+
+.chat_messages {
+    height: 200px;
+    padding: 8px;
+    overflow-y: auto;
+}
+
+.chat_form {
+    height: 50px;
+    display: flex;
+}
+
+.chat_form > input {
+    height: 100%;
+    box-sizing: border-box;
+    width: 70%;
+    padding: 8px;
+    font-size: 1.2em;
+}
+
+.chat_form > button {
+    height: 100%;
+    border: none;
+    outline: none;
+    width: 30%;
+    background-color: var(--red);
+    color: var(--white);
+    font-size: 1.22em;
+    font-weight: 500;
+}
+
+
+
+.message {
+    background-color: var(--orange);
+    border-radius: 6px;
+    padding: 6px;
+    margin: 6px;
+    display: block;
+    font-size: 1em;
+    font-weight: 500;
+    color: var(--black);
+    width: fit-content;
+    position: relative;
+}
+
+.other {
+    background-color: var(--white);
+}
